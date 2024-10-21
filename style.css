@@ -1,0 +1,651 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* header styling starts here */
+header > div.nav-icons{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 11px;
+    margin: 0 10%;
+}
+div.nav-icons> ul.mail{
+    padding-left: 20px;
+    margin-left: 10%;
+}
+ul.icons{
+    margin-right: 10%;
+}
+ul.icons > li a{
+    text-decoration: none;
+    color: white;
+}
+
+ul.mail > li,
+ul.icons > li {
+    display: inline;
+    list-style: none;
+    padding: 2px;
+}
+
+
+/*first nav bar ends here*/
+
+/* 2nd navbar styling starts here */
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 8px 10% 1px 12%;
+}
+nav h1{
+    font-size: 36px;
+    color: orangered;
+}
+nav .fa-truck{
+	color: orangered;
+}
+
+ul.navbar > li{
+    display: inline;
+}
+
+ul.navbar > li a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+    padding: 5px;
+    color: black;
+    font-family: sans-serif;
+}
+
+ul.navbar > li a:hover{
+    background-color: orangered;
+    transition: 0.5s ease-in-out;
+    padding: 20px 0px;
+}
+
+ul.navbar > li.active{
+    background-color:orangered;
+    padding: 20px 0px;
+    
+}
+
+
+
+select{
+    font-size: 16px;
+    border: none;
+    background-color: white;
+
+}
+
+button.cta-1{
+    padding: 8px 15px;
+    background-color: orangered;
+    border: none;
+    color: white;
+}
+/* navbar styling ends here */
+
+/* hero-section styling starts here */
+
+section{
+    background-image: url(images/header.jpg);
+    width: 80%;
+    height: 60vh;
+    margin: auto;
+    margin-top: 8px;
+    /*background-repeat: no-repeat; */
+    background-size: cover;
+    
+}
+
+div.hero-section{
+    background-color: rgba(0, 0, 0, 0.868);
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    line-height: 4rem;
+}
+
+div.hero-section h3{
+    font-size: 30px;
+    color: orangered;
+}
+
+div.hero-section h1{
+    font-size: 3.9rem;
+    color: white;
+}
+
+div.hero-section button{
+    padding: 16px;
+    margin-left: -5px;
+    background-color: orangered;
+    border: none;
+    color: white;
+   
+}
+div.hero-section input[type="text"]{
+    padding: 15px;
+    width: 22rem;
+}
+/* hero-section styling ends here */
+
+
+/* main styling starts here */
+/*about us styling starts here*/
+
+main > div.about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 2.5em auto 0;
+}
+main > div.about-us div.experience div.years{
+    background-color: orangered;
+    /* width: %; */
+/*    min-width: 100%;*/
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+main > div.about-us > div.experience div.truck-img{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+/*    margin-right:30%;*/
+/*    border: 1px solid black;*/
+    
+}
+
+main > div.about-us div.experience{
+    width: 80%;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/*    margin-right: 20px;*/
+/*     border: 1px solid blue; */
+}
+
+main > div.about-us div.article{
+    width: 50vw;
+    /* border: 1px solid red; */
+    display: flex;
+    margin-left: 20px;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-left: px; */
+}
+main > div.about-us div.article h6{
+    color: rgb(256, 56, 26);
+    font-size: 12px;
+    font-weight: bold;
+    font-family: sans-serif
+}
+main > div.about-us div.article h3{
+    color: black;
+    font-size: 25px;
+    /* font-weight: bolder; */
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    padding: 5px 0 10px;
+}
+main > div.about-us div.article p.article{
+    line-height: 20px;
+    padding-bottom: 15px;
+    color: rgb(115, 114, 114);
+/*     border: 1px solid blue; */
+    width: 70%;
+    text-align: justify;
+    justify-content: space-evenly;
+}
+main > div.about-us div.article div.player div.big-circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: rgb(223, 100, 100);
+    position: relative;
+}
+main > div.about-us div.article div.player div.big-circle div.small-circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    background-color: darkorange;
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main > div.about-us > div.article > div.player{
+    display: flex;
+    justify-content: ;
+    align-items: center;
+}
+
+
+div.about-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5em;
+}
+/* about us styling ends here */
+
+/* request part styling starts here */
+
+div.request-container{
+    background-color: rgb(243, 243, 243);
+    width: 80%;
+    height: 45vh;
+    margin: auto;
+    display: flex;
+    margin-top: 4.5em;
+}
+div.request-container div.request-article{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    /* border: 1px solid green; */
+    margin-left: 10%;
+}
+div.request-container div.request-article h5{
+    color: rgb(256, 56, 26);
+    padding-bottom: 8px;
+    font-size: 13px;
+    font-family: arial;
+}
+div.request-container div.request-article h1{
+    color: #000;
+    padding-bottom: 8px;
+    font-size: 30px;
+}
+div.request-container div.request-article p{
+    color: grey;
+    padding-bottom: 10px;
+    font-size: 15px;
+    /* border: 1px solid blue; */
+    width: 95%;
+    text-align: justify;
+}
+
+div.request-container div.request-article th{
+   color: rgb(256, 56, 26);
+   font-size: 2em;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: left;
+   padding-bottom: 3px;
+}
+
+div.request-container div.request-article td{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+div.request-container div.request-form{
+    background-color: rgb(256, 56, 26);
+    min-width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    /* border: 1px solid blue; */
+    
+}
+div.request-container > div.request-form > form > input[type="text"],
+div.request-container > div.request-form > form > input[type="email"]{   
+    width: 15vw;
+    padding: 10px;
+    margin: 12px 0;
+    border: 1px solid rgb(256, 56, 26);
+}
+
+div.request-container > div.request-form > form > select,
+div.request-container > div.request-form > form > input[type="submit"]{
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid rgb(256, 56, 26);
+}
+div.request-container > div.request-form > form > input[type="submit"]{
+    background-color: #000;
+    color: whitesmoke;
+}
+div.request-container > div.request-form > form > input[type="submit"]:hover{
+    background-color: white;
+    transition: 0.5s ease-in-out;
+    color: black;
+}
+
+/* request part styling ends here */
+
+.line1{
+	width: 700px;
+	height: 50px;
+	background-color: silver;
+}
+.line2{
+	width: 500px;
+	height: 50px;
+	background-color: orangered;
+}
+.line3{
+	width: 60px;
+	height: 50px;
+	background-color: silver;
+}
+.box{
+	display: flex;
+	margin: 30px;
+	justify-content: center;
+	margin-bottom: 60px;
+}
+.fa-plane,.fa-bug,.fa-truck,.fa-box-archive{
+	color: #000;
+}
+
+.intro > h4{
+	color: orange;
+}
+.intro h2{
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.intro{
+	text-align: center;
+
+}
+
+.air{
+	background-color: orangered;
+	width: 250px;
+	height: 50px;
+	margin: 10px;
+/*	text-align: center;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+.booking{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.words{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin: 0 150px;
+	gap: 10px;
+}
+.read{
+	display: flex;
+	margin: 20px 0 20px ;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+}
+.read a{
+	color: orange;
+	text-decoration: none;
+	border-bottom: 1px solid silver;
+	margin: 0 100px;
+	margin-bottom: 10px;
+}
+
+.ship{
+	width: 1280px;
+	background-color: silver;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	margin: 80px 30px;
+
+}
+.safe h4 {
+	color: orange;
+}
+.safe ul{
+	font-weight: bold;
+	line-height: 20.5px;
+}
+.img{
+	padding: 0 20px 0 50px;
+}
+.safe{
+	margin-top: -70px;
+}
+button.cta-2{background: orangered;
+	padding: 20px;
+	width: 150px;
+	height: 50px;
+	color: white;
+	margin-top: 30px;
+}
+/*delivery team starts here*/
+
+div.name{
+	display: flex;
+/*	margin: 20px 120px 20px;*/
+	justify-content: center;
+/*	justify-content: space-evenly;*/
+	width: 80%;
+	margin: auto;
+	gap: 1em;
+
+	}
+div.name div.designation {
+	width: 18vw;
+}
+div.name div.designation img{
+	width: 100%;
+}
+
+div.man{
+	background-color: silver;
+	height: 4em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 3px solid orangered;
+	margin-top: -4px;
+	flex-direction: column;
+}
+
+div.man h4{
+	font-size: 1.5em;
+	font-family: arial;
+}
+div.deliver{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 4rem;
+}
+div.delivery h4{
+	font-size: 1.5rem;
+	color: orange;
+	text-align: center;
+}
+
+div.delivery h2{
+	font-size: 1.8em;
+	margin-bottom: 1em;
+}
+/*Delivery Team ends here*/
+/*main section ends here*/
+
+
+footer starts here
+.foot{
+	display: flex;
+	justify-content:space-around;
+	margin: 0 50px;
+	background-color:rgba(30,30,30,255);
+	padding: 50px;
+	height: 40vh;
+	width: 80%;
+	margin: auto;
+}
+div.foot1{
+	display: flex;
+	align-items: start;
+	justify-content: left;
+	flex-direction: column;
+}
+.foot2 a{
+	text-decoration: none;
+}
+.foot2 ul{
+	list-style: none;
+	color: white;
+	line-height: 1.5em;
+}
+
+.foot2 h2,
+.news h2,
+.foot1 h2{
+	color: orangered;
+	font-size: 1.3em;
+}
+.foot1 p{
+	color: white;
+	line-height: 2em;
+}
+
+
+.foot3{
+	background-color: rgba(30,30,30,255);
+/*	height: 70px;*/
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid grey;
+	width: 80%;
+	margin: auto;
+/*	margin: 0 50px;*/
+	padding: 20px 30px ;
+}
+.foot3 ul li{
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px;
+	color: white;
+}
+.foot3 a{
+	text-decoration: none;
+}
+a{
+	color: white;
+}
+/*input{
+	height: 50px;
+	width: 400px;
+	padding: 0 30px;	
+}*/
+
+.para > span{
+	color: orangered;
+}
+.para{
+	color: white;
+}
+.social{
+/*	position: absolute;*/
+/*	left: 50px;*/
+/*	background-color: whitesmoke;*/
+}
+.social > div{
+	border: 1px solid white;
+	height: 30px;
+	width: 30px;
+	border-radius: 15px;
+/*	position: relative;*/
+/*	left: 80px;*/
+	color: white;
+	float: left;
+	margin: 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+/*	padding: 2px;*/
+}
+
+div.foot > div.foot1{
+	width: 30vw;
+}
+
+div.foot > div.foot2{
+	width: 30vw;
+
+}
+div.foot > div.news{
+	width: 40vw;
+}
+div.foot{
+	display: flex;
+	gap: 20px;
+}
+
+div.foot > div.news p{
+/*	border: 1px solid blue;*/
+	width: 20em;
+	text-align: justify;
+	line-height: 1.2em;
+	color: white;
+	margin-bottom: 8px;
+}
+
+div.foot div.news input[type="text"]{
+	width: 20em;
+	padding: 0.5em 0 0.5em 0.5em;
+	border: none;
+}
+
+div.foot > div.news button.cta-5{
+	padding: 0.5em;
+	border: none;
+	background-color: orangered;
+	color: white;
+	margin-left: -10px;
+}
+/*footer ends here*/
+/*media query begins here*/
+@media only screen and (max-width: 1125px){
+	.booking{
+	margin-left: 7rem;
+	}
+	.line1{
+		margin-left: 10px;
+	}
+	.words{
+		margin-left: 13rem;
+	}
+}
